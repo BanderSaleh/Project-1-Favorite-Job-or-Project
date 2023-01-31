@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="styles.css"> -->
-    <title>My Favorite Project</title>
+    <title>My Favorite Project I Coded</title>
     <!-- declared and linked my style css file -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -14,75 +14,104 @@
 <body>
     <header>
         <nav>
-            <a href="https://www.youtube.com/live/tHUvXYHPaSU?feature=share">Link1</a>
-            <a href="">Link2</a>
-            <a href="">Link3</a>
+            <a href="https://www.bandersaleh.com">Link1</a>
+            <a href="https://www.google.com">Link2</a>
+            <a href="https://www.youtube.com/live/tHUvXYHPaSU?feature=share">Link3</a>
         </nav>
     </header>
 
     <main>
 
-        <div class="hero-container">
-            <img src="./images/ShoppingListAppPresentation_ArtsyCloseup.png" alt="ShoppingListAppPresentation_withYouTubeOverlayOn.png">
+        <div id="hero-container">
+            <img src="./images/ShoppingListApp_LoggedInHeader.png" alt="ShoppingListApp_LoggedInHeader.png">
             <div class = "hero-text">
                 <h1>My Favorite Project (That I Coded)</h1>
                 <p>by Bander Saleh (CSI140_Lab_6) published on 1-30-2023.</p>
             </div>
         </div>
-        <div class="about-app">
-            <h3>About</h3>
-            <p>I personally built a Full-stack App that allows a User to create an account where they can store their shopping list
-                data to the backend and easily customize and personalize the design of the frontend. This app is titled, “Shopping List App, save paper!” And it was built
-                on a Ruby-on-Rails backend and a Vue.js Javascript frontend, incorporating and modifying Bootstrap elements and JavaScript transition elements. I chose to spotlight my first Full-stack Thesis Project as my favorite coding creation because it helps me look past the basics that you can build with code and motivates me to think bigger.</p>
-            </li>
+
+        <div>
+            <div id="container" class="center-text">
+                <div class="item">
+                    <img src="./images/LoginPage.png" alt="LoginPage.png">
+                </div>
+                <div class="item">
+                    <img src="./images/AccountPage.png" alt="AccountPage.png">
+                </div>
+                <div class="item">
+                    <img src="./images/CU_Array.png" alt="CU_Array.png">
+                </div>
                 
+            </div>
         </div>
-        <div class="app-functionality">
-            <!-- <img src=""> -->
+
+        <div id="app-about">
+            <h2>About</h2>
+            <div class="about-class">
+                
+                <p>I personally built a Full-stack App that allows a User to create an account where they can store their shopping list
+                    data to the backend and easily customize and personalize the design of the frontend. This app is titled, “Shopping List App, save paper!” And it was built
+                    on a Ruby-on-Rails backend and a Vue.js Javascript frontend, incorporating and modifying Bootstrap elements and JavaScript transition elements.</p>
+                <p>I chose to spotlight my first Full-stack Thesis Project as my favorite coding creation because it helps me look past the basics that you can build with code and motivates me to think bigger next time.</p>
+            </div>
+        </div>
+
+        <div>
             <div>
-                <h3>Functionality</h3>
+                <div class = "learned-class">
+                    <h2>What I Learned</h2>
+                    <p>
+                        <li>Learned fundamentals and best practices for full-stack web development in areas of project architecture, backend, frontend, and how to effectively self-teach new technologies.</ul>
+                            <p>
+                                <ul>
+                                    <li>Generated technical requirements and determined the most effective solutions, created wireframes, designed schema, and researched outside resources.</li>
+                                    <li>Built and tested the backend, incorporating external APIs or User generated APIs.</li>
+                                    <li>Created pages and RESTful routes, made web requests to retrieve data, formatted and styled results, incorporated libraries and themes.</li>
+                                </ul>
+                            </p>
+                        </li>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div id="app-functions">
+                <h2>Functionality</h2>
+                <center><img src="./images/ShoppingListApp_statsCU.png" alt="ShoppingListApp_statsCU.png" width="35%"></center>
+            </div>
+            <div class="class-function">
                 <p>
                     <li>Create Account: The User can create an Account that is only accessible with the declared key value pair: Email and Password</li>
                     <li>Create List: The User can input an Item with subDetails and store it in the backend inside one array called MyShoppingList</li>
                     <li>MyShoppingList button functions: Each item displayed as a Item in the MyShoppingList array can be either: deleted, updated, completed(moved to the User's CompletedShoppingList array with a timestamp on day complete)</li>
                     <li>View User Stats: A Page that displays multiple types of graphs that all reflect the same data: Quantity vs Data.</li>
-                </p>
-                
+                </p>        
             </div>
         </div>
 
-        <div class="updates">
-            <h3>Future Updates</h3>
-             <p>
-                <ol>
-                    <li>Incorporate and API that can take the names in MyShoppingList array and output the different meals that MyShoppingList could make (bonus: include the cooking instructions)</li>
-                </ol>
-
-            </p>
+        <div>
+            <div id="updates">
+                <h2>Upcoming Updates</h2>
+            </div>
+            <div class = "future-updates">
+                <p><ol>
+                        <li>Incorporate an external API that can take the names in MyShoppingList array and output the different meals that the current MyShoppingList array could make (bonus: include the cooking instructions)</li>
+                    </ol>
+                </p>
+            </div>
         </div>
 
 
-        <div class="learned">
-            <h3>What I Learned</h3>
-            <p>
-                <li>Learned fundamentals and best practices for full-stack web development in areas of project architecture, backend, frontend, and how to effectively self-teach new technologies.</ul>
-                    <p>
-                        <ul>
-
-                        
-                            <li>Generated technical requirements and determined the most effective solutions, created wireframes, designed schema, and researched outside resources.</li>
-                            <li>Built and tested the backend, incorporating external APIs or User generated APIs.</li>
-                            <li>Created pages and RESTful routes, made web requests to retrieve data, formatted and styled results, incorporated libraries and themes.</li>
-                        </ul>
-                    </p>
-                </li>
-            </p>
-        </div>
+        
 
 
     </main>
 
     <footer>
+        <div class="footer-text">
+            <p>©2023 Bander Saleh</p>
+        </div>
     </footer>
 
 </body>

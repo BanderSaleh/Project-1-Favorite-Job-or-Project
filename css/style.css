@@ -1,3 +1,94 @@
+
+
 img {
+    display: grid;
     max-width: 100%;
+}
+
+.hero-container {
+    display: grid;
+    text-align: right;
+    background-color: black;
+}
+
+.hero-text {
+    display: grid;
+    background-color: rgb(212, 122, 122);
+    text-align: center;
+}
+
+
+.about-class{
+    display: grid;
+    text-align: Left;
+    background-color: rgb(236, 163, 79);
+}
+
+.class-function {
+    display: grid;
+    text-align: Left;
+    background-color: rgb(20, 160, 95);
+    padding-left: 5%;
+}
+
+.future-updates {
+    display: grid;
+    text-align: Left;
+    background-color: rgb(57, 184, 235);
+}
+
+.learned-class {
+    display: grid;
+    text-align: left;
+    background-color: rgb(248, 248, 103);
+    padding-left: 5%;
+}
+
+.item {
+    display: grid;
+    padding: 3px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+#app-about {
+    display: grid;
+    text-align: center;
+    background-color: rgb(236, 163, 79);
+    padding-left: 5%;
+}
+
+#app-functions {
+    display: grid;
+    text-align: right;
+    background-color: rgb(20, 160, 95);
+    padding-right: 5%;
+    
+    
+}
+
+#updates {
+    display: grid;
+    text-align: center;
+    background-color: rgb(57, 184, 235);
+    padding-right: 5%;
+}
+
+#hero-container {
+    display: grid;
+}
+
+#container {
+    display: grid;
+    /* padding: 10px; */
+    background-color:rosybrown;
+    grid-template-columns: auto auto auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.footer-text {
+    text-align: right;
+    padding-right: 10%
+    
 }
